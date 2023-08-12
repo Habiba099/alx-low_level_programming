@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	char x;
+	char x = '0';
 
-	while (x <= 'f')
+	while (x >= 'f')
 	{
 		/*if ((x >= '0' && x <= '9') || (x >= 'a' && x <= 'f'))*/
 		putchar(x);

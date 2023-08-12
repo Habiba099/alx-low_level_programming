@@ -10,12 +10,12 @@
 int main(void)
 {
 	char x = '0';
-
-	while (x >= 'f')
+	char c = 'a';
+	while (c <= 'f')
 	{
 		/*if ((x >= '0' && x <= '9') || (x >= 'a' && x <= 'f'))*/
-		putchar(x);
-		x++;
+		putchar(c);
+		c++;
 	}
 
 	while (x <= '9')

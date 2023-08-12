@@ -9,12 +9,15 @@
 
 int main(void)
 {
-	int x;
+	char x = '0';
 
-	while (x >= 0 && x >= 'f')
+	while (x <= 'f')
 	{
-		putchar(x);
-		x++;
+		if ((x >= '0' && x <= '9') || (x >= 'a' && x <= 'f'))
+		{
+			putchar(x);
+			x++;
+		}
 	}
 
 	putchar('\n');

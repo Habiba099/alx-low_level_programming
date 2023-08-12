@@ -13,11 +13,15 @@ int main(void)
 
 	while (x <= 'f')
 	{
-		if ((x >= '0' && x <= '9') || (x >= 'a' && x <= 'f'))
-		{
-			putchar(x);
-			x++;
-		}
+		/*if ((x >= '0' && x <= '9') || (x >= 'a' && x <= 'f'))*/
+		putchar(x);
+		x++;
+	}
+
+	while (x <= '9')
+	{
+		putchar(x);
+		x++;
 	}
 
 	putchar('\n');

@@ -14,6 +14,7 @@ int main(void)
 	int lasdigit;
 	srand(time(0));
 
+
 	n = rand() - RAND_MAX / 2;
 	lasdigit = n % 10;
 

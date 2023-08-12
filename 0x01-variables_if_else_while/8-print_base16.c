@@ -9,22 +9,22 @@
 
 int main(void)
 {
-	char x = '0';
-	char c = 'a';
-	while (c <= 'f')
-	{
-		/*if ((x >= '0' && x <= '9') || (x >= 'a' && x <= 'f'))*/
-		putchar(c);
-		c++;
-	}
+        char x = '0';
+        char c = 'a';
 
-	while (x <= '9')
-	{
-		putchar(x);
-		x++;
-	}
+        while (x <= '9')
+        {
+                putchar(x);
+                x++;
+        }
 
-	putchar('\n');
+        while (c <= 'f')
+        {
+                /*if ((x >= '0' && x <= '9') || (x >= 'a' && x <= 'f'))*/
+                putchar(c);
+                c++;
+        }
 
-	return (0);
-}
+        putchar('\n');
+
+        return (0);}

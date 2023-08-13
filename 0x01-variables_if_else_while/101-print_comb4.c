@@ -19,13 +19,16 @@ int main(void)
 		while (i < 10)
 		{
 			z = i + 1;
-			putchar(x + 48);
-			putchar(i + 48);
-			putchar(z + 48);
-			if (x != 7 || i != 8 || z != 9)
+			while (z < 10)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(x + 48);
+				putchar(i + 48);
+				putchar(z + 48);
+				if (x != 7 || i != 8 || z != 9)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 			i++;
 			z++;

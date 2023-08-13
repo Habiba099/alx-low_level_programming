@@ -9,6 +9,7 @@
 int main(void)
 {
 	int x, i;
+
 	x = 0;
 
 	while (x < 10)
@@ -16,8 +17,8 @@ int main(void)
 		i = x + 1;
 		while (i < 10)
 		{
-			putchar(x);
-			putchar(i);
+			putchar(x + 48);
+			putchar(i + 48);
 			if (x != 8 || i != 9)
 			{
 				putchar(',');

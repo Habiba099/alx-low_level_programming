@@ -26,7 +26,7 @@ int main(void)
 			i++;
 		}
 		x++;
-		}
+	}
 
 	putchar('\n');
 

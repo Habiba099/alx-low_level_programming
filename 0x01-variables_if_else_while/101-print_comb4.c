@@ -29,9 +29,9 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+				z++;
 			}
 			i++;
-			z++;
 		}
 		x++;
 	}

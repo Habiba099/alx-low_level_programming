@@ -1,10 +1,6 @@
 #include "main.h"
 /**
- * main - an entry point
- *
- * Description: function putchar
- *
- * Return: returns 0
+ * print_alphabet - prints the alphapet in lowercase
  */
 void print_alphabet(void)
 {
@@ -12,7 +8,8 @@ void print_alphabet(void)
 
 	while (c <= 'z')
 	{
-		print_alphabet();
+		putchar(c);
 		c++;
 	}
+	putchar('\n');
 }

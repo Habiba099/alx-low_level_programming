@@ -9,11 +9,10 @@
 int main(void)
 {
 	char std[] = "_putchar";
-	char i = 0;
+	int i = 0;
 
-	while (std[i] != '\0')
+	while (i < 8)
 	{
-		
 		putchar(std[i]);
 		i++;
 

@@ -1,4 +1,5 @@
 #include <unistd.h>
+#incluse "main.h"
 
 /**
  * _putchar - writes the character c to stdout
@@ -9,7 +10,9 @@
  */
 int _putchar(char c)
 {
-	putchar(_putchar(_putchar));
+	char std[] = "_putchar";
+
+	putchar(std[]);
 
 	return (write(1, &c, 1));
 }

@@ -12,7 +12,7 @@ int _putchar(char c)
 {
 	char std[] = "_putchar";
 
-	putchar(std[_putchar]);
+	char putchar(std[_putchar]);
 
 	return (write(1, &c, 1));
 }

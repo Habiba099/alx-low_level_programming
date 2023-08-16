@@ -18,11 +18,13 @@ int print_sign(int n)
 	else if (n == 0)
 	{
 		putchar(48);
+		putchar(',');
 		return (0);
 	}
 	else
 	{
 		putchar(45);
+		putchar(',');
 		return (-1);
 	}
 }

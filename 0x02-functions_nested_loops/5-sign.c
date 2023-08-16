@@ -4,7 +4,7 @@
  *
  * @n: is a number
  *
- * Returns: 1 if n is greater than zero
+ * Return: 1 if n is greater than zero
  * and 0 if n is zero and -1 if n is less than zero
  */
 int print_sign(int n)

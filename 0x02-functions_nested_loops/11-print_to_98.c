@@ -9,16 +9,11 @@
  */
 void print_to_98(int n)
 {
-	int i;
-
-	i = n;
-
-
-	while (i <= 98)
+	while (n <= 98)
 	{
-		putchar(i);
+		putchar(n);
 
-		if (i != 98)
+		if (n != 98)
 		{
 			putchar(',');
 			putchar(' ');

@@ -11,20 +11,20 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
-		putchar(43);
-		putchar(',');
+		_putchar(43);
+		_putchar(',');
 		return (1);
 	}
 	else if (n == 0)
 	{
-		putchar(48);
-		putchar(',');
+		_putchar(48);
+		_putchar(',');
 		return (0);
 	}
 	else
 	{
-		putchar(45);
-		putchar(',');
+		_putchar(45);
+		_putchar(',');
 		return (-1);
 	}
 }

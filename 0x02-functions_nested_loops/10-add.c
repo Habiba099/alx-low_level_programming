@@ -12,7 +12,6 @@ int add(int a, int b)
 {
 	int sum = a + b;
 
-	putchar(sum);
 
-	return (0);
+	return (sum);
 }

@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_last_digit -  prints the last digit of a number
+ * _abs - print the absolute value
  *
- * _abs - print the abs
+ * print_last_digit -  prints the last digit of a number
  *
  * @i: integer
  *

@@ -11,15 +11,15 @@ void print_to_98(int n)
 {
 	while (n <= 98)
 	{
-		putchar(n);
+		_putchar(n);
 
 		if (n != 98)
 		{
-			putchar(',');
-			putchar(' ');
+			_putchar(',');
+			_putchar(' ');
 		}
 		n++;
-		putchar('\n');
+		_putchar('\n');
 	}
 
 }

@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _abs - print the absolute value
  *
@@ -21,7 +20,13 @@ int _abs(int i)
 	}
 
 }
-
+/**
+ * print_last_digit - prints the last digit
+ *
+ * @i: integer
+ *
+ * Return: Always 0
+ */
 int print_last_digit(int i)
 {
 	int ldigit = i % 10;

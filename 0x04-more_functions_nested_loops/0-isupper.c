@@ -14,14 +14,13 @@ int _isupper(int c)
 		putchar(c);
 		putchar(':');
 		putchar(' ');
-		putchar('1');
 	}
 	else
 	{
 		putchar(c);
 		putchar(':');
 		putchar(' ');
-		putchar('0');
+		return (0);
 	}
 
 	return (1);

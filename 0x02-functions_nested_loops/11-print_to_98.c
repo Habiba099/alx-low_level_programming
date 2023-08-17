@@ -9,30 +9,15 @@
  */
 void print_to_98(int n)
 {
-	n = 0;
-
 	while (n <= 98)
 	{
-		putchar(n);
-		
-		if (n != 98)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar(n + '0');
 		n++;
-	}
-
-	while (n > 98)
-	{
-		putchar(n);
 
 		if (n != 98)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		n--;
 	}
-
 }

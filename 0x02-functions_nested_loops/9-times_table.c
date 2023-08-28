@@ -33,7 +33,7 @@ void times_table(void)
 				putchar(' ');
 			}
 
-			if (mul <= 9 && j > 0)
+			if (mul <= 9 && j >= 0)
 			{
 				putchar(' ');
 			}

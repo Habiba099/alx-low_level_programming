@@ -24,17 +24,16 @@ void times_table(void)
 
 			else
 			{
+				if (j != 0)
+				{
+					putchar(' ');
+				}
 				putchar(mul + '0');
 			}
 
 			if (j != 9)
 			{
 				putchar(',');
-				putchar(' ');
-			}
-
-			if (mul <= 9 && j >= 0)
-			{
 				putchar(' ');
 			}
 		}

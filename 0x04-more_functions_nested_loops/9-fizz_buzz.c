@@ -43,6 +43,8 @@ void fizz_buzz(void)
 			printf(" ");
 		}
 	}
+
+	printf("\n");
 }
 /**
  * main - entry point

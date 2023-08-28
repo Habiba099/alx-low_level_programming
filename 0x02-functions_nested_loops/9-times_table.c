@@ -24,6 +24,7 @@ void times_table(void)
 
 			else
 			{
+				putchar(' ');
 				putchar(mul + '0');
 			}
 

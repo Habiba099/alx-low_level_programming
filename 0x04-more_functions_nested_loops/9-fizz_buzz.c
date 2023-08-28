@@ -17,19 +17,19 @@ void fizz_buzz(void)
 
 		if (arr[i] % 3 == 0 && arr[i] % 5 == 0)
 		{
-			printf("FizzBuzz, ");
+			printf("FizzBuzz ");
 			continue;
 		}
 
 		if (arr[i] % 3 == 0)
 		{
-			printf("Fizz, ");
+			printf("Fizz ");
 			continue;
 		}
 
 		else if (arr[i] % 5 == 0)
 		{
-			printf("Buzz, ");
+			printf("Buzz ");
 			continue;
 		}
 
@@ -40,7 +40,7 @@ void fizz_buzz(void)
 
 		if (i < 99)
 		{
-			printf(", ");
+			printf(" ");
 		}
 	}
 }

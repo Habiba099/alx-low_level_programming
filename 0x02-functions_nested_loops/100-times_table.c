@@ -8,16 +8,22 @@
  */
 void print_times_table(int n)
 {
-	int i;
+	int i = 0, mul = 0;
 
-	if (n < 0 || n > 15)
+	if (n < 15 && n > 0)
 	{
-		return;
+		while (i < 13)
+		{
+			mul = n * i;
+			if (i == 12)
+			{
+				printf("%d", mul);
+			}
+			else
+			{
+				printf("%d, ", mul);
+			}
+			i++;
+		}
 	}
-
-	for (i = 0; i <= 14; i++)
-	{
-		printf("%d, ", n * i);
-	}
-	putchar('\n');
 }

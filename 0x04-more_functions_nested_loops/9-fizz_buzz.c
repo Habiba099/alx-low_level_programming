@@ -9,8 +9,9 @@
 void fizz_buzz(void)
 {
 	int arr[100];
+	int i = 0;
 
-	for (int i = 0; i < 100; i++)
+	while (i < 100)
 	{
 		arr[i] = i + 1;
 		if (arr[i] % 3 == 0 && arr[i] % 5 == 0)
@@ -33,6 +34,7 @@ void fizz_buzz(void)
 		{
 			printf(" ");
 		}
+		i++;
 	}
 	printf("\n");
 }

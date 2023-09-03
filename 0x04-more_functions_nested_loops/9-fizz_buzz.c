@@ -9,41 +9,31 @@
 void fizz_buzz(void)
 {
 	int arr[100];
-	int i;
 
-	for (i = 0; i < 100; i++)
+	for (int i = 0; i < 100; i++)
 	{
 		arr[i] = i + 1;
-
 		if (arr[i] % 3 == 0 && arr[i] % 5 == 0)
 		{
-			printf("FizzBuzz ");
-			continue;
+			printf("FizzBuzz");
 		}
-
-		if (arr[i] % 3 == 0)
+		else if (arr[i] % 3 == 0)
 		{
-			printf("Fizz ");
-			continue;
+			printf("Fizz");
 		}
-
 		else if (arr[i] % 5 == 0)
 		{
-			printf("Buzz ");
-			continue;
+			printf("Buzz");
 		}
-
 		else
 		{
 			printf("%d", arr[i]);
 		}
-
 		if (i < 99)
 		{
 			printf(" ");
 		}
 	}
-
 	printf("\n");
 }
 /**

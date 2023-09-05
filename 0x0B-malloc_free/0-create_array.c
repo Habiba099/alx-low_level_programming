@@ -12,7 +12,7 @@
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	char *p; 
+	char *p;
 	p = (char *)malloc(size);
 
 	if (size == 0)
@@ -24,8 +24,8 @@ char *create_array(unsigned int size, char c)
 		p[i] = c;
 	}
 	if (p == NULL)
+	{
 		return (NULL);
+	}
 	return (p);
-
-	free(p);
 }

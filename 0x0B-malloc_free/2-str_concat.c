@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdlib.h>
 /**
  * str_concat - concatenate strings
@@ -29,7 +30,7 @@ char *str_concat(char *s1, char *s2)
 	while (s2[len2] != '\0')
 		len2++;
 
-	p = malloc((len1 + len2 + 1) * sizeof(char));
+	p = (char *)malloc((len1 + len2 + 1) * sizeof(char));
 
 	if (p == NULL)
 		return (NULL);

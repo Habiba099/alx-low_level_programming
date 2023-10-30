@@ -17,13 +17,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		s1 = "\0";
 	}
-	else if (s2 == NULL)
+	if (s2 == NULL)
 	{
 		s2 = "\0";
-	}
-	else if (s1 == NULL && s2 == NULL)
-	{
-		s1 = s2 = "\0";
 	}
 
 	while (s1[len1] != '\0')

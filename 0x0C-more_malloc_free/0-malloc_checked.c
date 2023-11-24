@@ -20,11 +20,11 @@ void *malloc_checked(unsigned int b)
 
 	if (c == NULL)
 		exit(98);
-	if (i == NULL)
+	else if (i == NULL)
 		exit(98);
-	if (f == NULL)
+	else if (f == NULL)
 		exit(98);
-	if (d == NULL)
+	else if (d == NULL)
 		exit(98);
 
 	return (c);

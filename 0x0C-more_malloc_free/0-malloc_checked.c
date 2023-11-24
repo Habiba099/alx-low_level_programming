@@ -1,10 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
-/*
+/**
  * malloc_checked - allocate memory
- *
- * description: returns pointers
- *
  * @b: size of memory to be allocated
  *
  * Return: pointers

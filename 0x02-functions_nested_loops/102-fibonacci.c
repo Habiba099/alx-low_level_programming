@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	unsigned long long arr[50], i;
+	long int arr[50], i;
 	arr[0] = 1;
 	arr[1] = 2;
 
@@ -20,10 +20,8 @@ int main(void)
 
 	for (i = 0; i < 50; i++)
 	{
-		printf("%llu ", arr[i]);
+		printf("%lu ", arr[i]);
 	}
-
-	//printf("\n");
 
 	return (0);
 }

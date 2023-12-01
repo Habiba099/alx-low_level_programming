@@ -9,6 +9,7 @@
 int main(void)
 {
 	long int arr[50], i;
+
 	arr[0] = 1;
 	arr[1] = 2;
 
@@ -18,10 +19,12 @@ int main(void)
 		arr[i] = arr[i - 1] + arr[i - 2];
 	}
 
-	for (i = 0; i < 50; i++)
+	for (i = 0; i < 49; i++)
 	{
-		printf("%lu ", arr[i]);
+		printf("%lu, ", arr[i]);
 	}
+
+	printf("%lu\n", arr[49]);
 
 	return (0);
 }
